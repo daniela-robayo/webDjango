@@ -1,0 +1,27 @@
+.contenido1{
+    position: relative;
+    /*Separa el título 60 hacía abajo del top de la página*/
+    top: 60px;
+    /*Margen con el elemento anterior*/
+    /*margin-top:60px;*/
+    border: 1px solid red;
+}
+.contenidoEstudiantes{
+    /*Combinación para centrar*/
+    background-color: #00917c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding :20px;
+    color: blue;
+}
+
+#formatoEstudiantes{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    gap:5px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+}

@@ -57,7 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         #'DIRS':[f'{BASE_DIR}/nombreProjecto/carpetaTemplates']
-        'DIRS': [f'{BASE_DIR}/webDjango/template'],
+        'DIRS': [f'{BASE_DIR}/webDjango/template',f'{BASE_DIR}/AppCoder/template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -1,0 +1,23 @@
+<!--Herencia de home*/-->
+{% extends "home.html"%}
+
+<!--Carga cualidades-->
+{% load static%}
+<link rel="stylesheet" href="{%static 'css/myestilo.css'%}">
+<link rel="stylesheet" href="{%static 'css/contenidoEstudiantes.css'%}">
+
+{% block contenido %}
+<p>
+    Hola, soy un estudiante.
+</p>
+<div class="contenidoEstudiantes">
+    <!--Clase se puede repetir pero Id NO-->
+    <form class="formDataEstudiantes" id="formatoEstudiantes">
+        <p>Nombre:<input type="text"></p>
+        <input type ="text" placeholder ="Apellido">
+        <input type ="password" placeholder ="Password">
+        <input type ="email" placeholder ="Email">
+        <button type="button" class="btn btn-primary">Log In</button>
+    </form>
+</div>
+{% endblock %}

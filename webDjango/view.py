@@ -6,6 +6,9 @@ from AppCoder.models import Curso
 def home(self,name):
     return HttpResponse (f'Hola soy {name}')
 
+def inicio(request):
+    return HttpResponse (f'Hola soy inicio webDjango')
+
 def homePage(self):
     lista = [1,2,3,4,5,6,7]
     data = {'nombre':'Daniela','apellido':'Robayo','lista':lista}
